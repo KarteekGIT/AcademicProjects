@@ -1,6 +1,6 @@
 package Banking;
 
-class Accounts{
+public class Accounts{
 	private String name;
 	private int accountNumber;
 	private int pinNumber;
@@ -11,8 +11,7 @@ class Accounts{
 		this.name =  name;
 	}
 	public  String getAccountName(){
-		String nameCopy = new String(this.name) ;
-		return nameCopy;
+		return name;
 	}
 	
 	public void setAccountNumber(int accountNumber){

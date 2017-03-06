@@ -2,7 +2,7 @@ package Banking;
 
 import java.util.Scanner;
 
-class BankingSystem{
+public class BankingSystem{
 	private Scanner sc = new Scanner(System.in);
 	private BankEmployee be = new BankEmployee();
 	private AccountUser user;

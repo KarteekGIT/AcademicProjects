@@ -2,7 +2,7 @@ package Banking;
 
 import java.util.Scanner;
 
-class AccountUser{
+public class AccountUser{
 	private Accounts ac;
 	private Scanner input = new Scanner(System.in);
 	private String newName, newType;

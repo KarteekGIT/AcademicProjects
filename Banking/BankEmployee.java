@@ -3,7 +3,7 @@ package Banking;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-class BankEmployee{
+public class BankEmployee{
 	private ArrayList<Accounts> allAccounts = new ArrayList<Accounts>();
 	private Scanner input = new Scanner(System.in);
 
